@@ -1,0 +1,43 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+.first {
+  padding-top: 1.3rem;
+}
+
+@media only screen and (min-width: 60em) {
+
+  section {
+    background-color: #fff;
+  }
+
+  body {
+    background-color: #f2f2f2;
+  }
+
+  .stuff {
+    padding-right: .5rem;
+  }
+
+  .otherstuff {
+    padding-left: .5rem;
+  }
+
+}
